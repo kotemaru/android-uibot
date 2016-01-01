@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".MainActivity">
+
+
+    <Switch
+        android:id="@+id/sw_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickWifi"
+        android:layout_marginBottom="16dp"
+        android:text="Wifi"/>
+
+    <Switch
+        android:id="@+id/sw_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMobile"
+        android:layout_marginBottom="16dp"
+        android:text="Mobile"/>
+
+    <Switch
+        android:id="@+id/sw_airplane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAirPlane"
+        android:text="AirPlane"/>
+</LinearLayout>
